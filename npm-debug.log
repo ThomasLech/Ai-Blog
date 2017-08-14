@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'completion',
+1 verbose cli   '--',
+1 verbose cli   'npm',
+1 verbose cli   'install',
+1 verbose cli   'cordova[A' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose registry.get /-/short not expired, no request
+5 error TypeError: Object #<Object> has no method 'filter'
+5 error     at /usr/share/npm/lib/install.js:42:17
+5 error     at RegClient.get_ (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:105:14)
+5 error     at RegClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:41:12)
+5 error     at fs.js:268:14
+5 error     at /usr/lib/nodejs/graceful-fs/graceful-fs.js:103:5
+5 error     at Object.oncomplete (fs.js:107:15)
+6 error If you need help, you may report this log at:
+6 error     <http://github.com/isaacs/npm/issues>
+6 error or email it to:
+6 error     <npm-@googlegroups.com>
+7 error System Linux 4.4.0-43-Microsoft
+8 error command "/usr/bin/nodejs" "/usr/bin/npm" "completion" "--" "npm" "install" "cordova[A"
+9 error cwd /mnt/c/Users/user/Desktop/jekyll/ai-blog
+10 error node -v v0.10.25
+11 error npm -v 1.3.10
+12 error type undefined_method
+13 verbose exit [ 1, true ]
